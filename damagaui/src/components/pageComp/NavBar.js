@@ -1,6 +1,7 @@
+import React from "react";
 const NavBar = () => {
   return (
-    // <!-- ============== Offcanvas Menu Area ============= -->
+    // <!-- ============== Offcanvas Menu Area =============
     <div className="offcanvas-menu">
       <span className="offcanvasmenu-close">
         <i className="icofont icofont-close-line" />
