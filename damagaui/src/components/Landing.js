@@ -1,16 +1,21 @@
 import NavBar from './pageComp/NavBar'
 import Header from './pageComp/Header'
-class Landing extends React.Components {
+import Contact from './pageComp/Contact'
+import React from 'react'
+class Landing extends React.Component {
   constructor(){
     super();
   }
   render(){
     return(
-      <NavBar />
-      <Header />
-      <Hero />
-      <Action />
-      <Services />
+      <div>
+        <NavBar />
+        <Header />
+        <Hero />
+        <Action />
+        <Services />
+        <Contact />
+      </div>
     )
   }
 
@@ -34,91 +39,8 @@ class Landing extends React.Components {
 
 
 
-<!-- ================ Smart Choice Area Start ============== -->
-<div class="smart-choice mobile-apps">
-<div class="container">
-<div class="row">
-<div class="col-lg-6 wow slideInLeft" data-wow-duration="3s" data-wow-delay=".2s">
-<img src="assets/img/elevator.jpg" alt="">
-</div>
-<div class="col-lg-6">
-  <h4><span>The Smartest</span> Choice <br> for intelligent <span>developers</span></h4>
-<ul>
-  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit aute irure dolor in reprehenderit in volup  anim id est laboru.</li>
-  <li>Tempor incididunt ut labore et dolore magna aliqua.</li>
-  <li>Minim veniam quis nostrud exercitation.</li>
-  <li>Commodo consequat. I'm aute irure dolor in reprehenderit in volup</li>
-  
-</ul>
-<a href="#" class="boxed-btn">Download</a>
-<a href="#" class="borderd-btn">Learn more</a>
-</div>
-</div>
-</div>
-</div>
-<!-- ================ Smart Choice Area End ============== -->
 
-<!-- ================ Sponcer Area Start ============== -->
-<div class="sponser-area">
-<div class="container">
-<div class="row">
-        <div class="col-lg-8 offset-lg-2 text-center wow fadeInDown" data-wow-duration="3s">
-            <div class="section-title">
-                <h3>App Screenshort</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever when an unknown pecimen book.</p>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="sponcer-testmonial">
-                <div class="sponcer-single-testmonial">
-                    <img src="assets/img/spsoser-1.png" alt="">
-                </div>
-                <div class="sponcer-single-testmonial">
-                    <img src="assets/img/spsoser-2.png" alt="">
-                </div>
-                <div class="sponcer-single-testmonial">
-                    <img src="assets/img/spsoser-3.png" alt="">
-                </div>
-                <div class="sponcer-single-testmonial">
-                    <img src="assets/img/spsoser-4.png" alt="">
-                </div>
-                <div class="sponcer-single-testmonial">
-                    <img src="assets/img/spsoser-1.png" alt="">
-                </div>
-                <div class="sponcer-single-testmonial">
-                    <img src="assets/img/spsoser-2.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-<!-- ================ Sponcer Area End ============== -->
-<!-- ================ Testmoanial Area Start ============== -->
 
-<!-- ================ Testmoanial Area End ============== -->
-<!-- ================ Conrtact us area Start ============== -->
-<div class="contact-area">
-<div class="container">
-<div class="row">
-  <div class="col-lg-8 offset-lg-2 text-center">
-    <h3>Contact</h3>
-    <div class="contact-form">
-      <form action="index.html">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email">
-        <input type="search" placeholder="Subject">
-        <textarea  cols="30" rows="10" placeholder="Message"></textarea>
-        <input type="submit" value="Send">
-      </form>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<!-- ================ Conrtact us area End ============== -->
 <!-- ================ FAQ area Start ============== -->
 <div class="faq-area mobile-apps">
 <div class="container">
@@ -293,3 +215,5 @@ class Landing extends React.Components {
 </div>
 </div>
 </footer>
+
+export default Landing;
