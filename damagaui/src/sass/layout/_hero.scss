@@ -8,41 +8,9 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-}
-
-.hero-area {
-}
-.hero-area.contact-us {
-}
-.hero-area.pricing-v1 {
-  padding-top: 200px;
-}
-.hero-area.blog {
-}
-.hero-area.blog:after {
-  background: #66ccff;
-}
-.hero-area.main-shop::after {
-  background: #9999ff none repeat scroll 0 0;
-}
-.hero-area.blog {
-  padding-top: 170px;
-  padding-bottom: 60px;
-}
-.hero-area h2 {
-  margin-bottom: 35px;
-}
-.hero-area h1 {
-  font-weight: 900;
-  margin-bottom: 25px;
-}
-.hero-area,
-.hero-area h2 {
   color: #fff;
 }
-.hero-area.main-shop h1 {
-  margin-bottom: 20px;
-}
+
 .hero-area {
   background-position: center center;
   background-size: cover;
@@ -71,12 +39,6 @@
   margin-left: -30%;
   position: absolute;
   width: 60%;
-}
-.hero-area.checkout {
-}
-.hero-area.checkout {
-  padding-bottom: 80px;
-  padding-top: 180px;
 }
 .hero-area.about-us {
 }
@@ -248,4 +210,8 @@ select:focus {
 }
 .hero-area.theme-2 p {
   margin-bottom: 45px;
+}
+
+.iphone--landing {
+  width: 70%;
 }

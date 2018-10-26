@@ -1,5 +1,6 @@
 import React from "react";
 import "../../sass/layout/_hero.scss";
+import iphone from "../../build/assets/img/iphone.png";
 
 export default function Hero() {
   return (
@@ -21,12 +22,8 @@ export default function Hero() {
               Learn more
             </a>
           </div>
-          <div
-            className="col-lg-5 text-right wow slideInRight"
-            data-wow-duration="3s"
-            data-wow-delay=".3s"
-          >
-            <img src="assets/img/ben1.png" alt="" />
+          <div className="col-lg-6">
+            <img src={iphone} alt="" className="iphone--landing" />
           </div>
         </div>
       </div>

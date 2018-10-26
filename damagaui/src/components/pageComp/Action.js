@@ -18,7 +18,7 @@ export default function Action() {
               href="https://www.youtube.com/watch?v=zr1PmqXHqrA"
               className="video-play-btn mfp-iframe"
             >
-              <img src="assets/img/video-play-btn.png" alt="" />{" "}
+              <img src="assets/img/iphone.jpg" alt="" />{" "}
               <span>See Overview</span>
             </a>
           </div>
