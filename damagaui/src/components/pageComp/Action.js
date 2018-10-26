@@ -1,9 +1,10 @@
 import React from "react";
+import "../../sass/layout/_action.scss";
 
 export default function Action() {
   return (
     // <!-- ================ Call to Action Area Start ============== -->
-    <div className="cta-area padding-80">
+    <div className="cta-area padding-80 light-bg">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-md-auto text-center">

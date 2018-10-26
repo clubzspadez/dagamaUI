@@ -1,11 +1,12 @@
 import React from "react";
+import "../../sass/layout/_hero.scss";
 
 export default function Hero() {
   return (
     // <!-- ================ Hero Area Start ============== --></div>
     <div className="hero-area theme-2">
       <div className="container">
-        <div className="row">
+        <div className="hero-area--landing">
           <div className="col-lg-6 mx-md-auto col-md-11 pdt-100 ">
             <h1>Find events. Near you.</h1>
             <p>
@@ -29,7 +30,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="hero-social-icon">
+      {/* <div className="hero-social-icon">
         <ul>
           <li>
             <a href="#">
@@ -52,7 +53,7 @@ export default function Hero() {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
     // <!--================H ero Area end==============-->
   );

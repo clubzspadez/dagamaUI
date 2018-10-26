@@ -1,0 +1,38 @@
+/* =====================================================
+              Header CSS
+======================================================*/
+
+header {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+header,
+header h2 {
+  color: #fff;
+}
+header .borderd-btn {
+  background: #4ce0b3;
+  border: none;
+  width: auto;
+  border: 1px solid #4ce0b3;
+}
+header .borderd-btn:hover {
+  background: transparent;
+  border: 1px solid #4ce0b3;
+}
+.logo h1 {
+  margin: 0;
+  font-weight: 900;
+}
+.logo a {
+  font-size: 24px;
+  color: #fff;
+}
+.logo a span {
+  font-weight: 300;
+}
