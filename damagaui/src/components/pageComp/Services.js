@@ -1,4 +1,5 @@
 import React from "react";
+import "../../sass/layout/_services.scss";
 
 export default function Services() {
   return (

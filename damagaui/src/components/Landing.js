@@ -4,6 +4,8 @@ import Contact from "./pageComp/Contact";
 import Hero from "./pageComp/Hero";
 import Action from "./pageComp/Action";
 import Services from "./pageComp/Services";
+import "../sass/base/_base.scss";
+
 import React from "react";
 class Landing extends React.Component {
   constructor() {
@@ -11,7 +13,7 @@ class Landing extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="body">
         <NavBar />
         <Header />
         <Hero />
