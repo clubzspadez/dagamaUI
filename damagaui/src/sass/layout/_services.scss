@@ -1,4 +1,62 @@
 .service-area.theme-2 {
+  background-image: linear-gradient(to right bottom, #6937b3, #420f8ede);
   -webkit-clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
+  padding: 100px;
+}
+
+/* ==========================================================
+          Sevices area CSS
+============================================================*/
+
+.service-area.theme-2 .container {
+  margin-top: 40px;
+}
+.service-area.theme-2,
+.service-area.theme-2 h3,
+.service-area.theme-2 h5 {
+  color: #fff;
+}
+.service-area.theme-2:after {
+  background-image: linear-gradient(to right bottom, #6937b3cb, #420f8ec9);
+}
+.theme-2 .single-services {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #eaeaea;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  color: #313131;
+  padding: 30px 20px 60px;
+  text-align: center;
+  transition: 0.3s;
+}
+.theme-2 .single-services:hover {
+  box-shadow: 0 0 10px #ddd;
+}
+.service-area.theme-2 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.service-area.theme-2 .col-md-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.theme-2 .single-services h4 {
+  margin: 40px 0 25px;
+  transition: 0.4s;
+  line-height: 120%;
+}
+.theme-2 .single-services .service-icon {
+  border: 1px solid #b1b4b7;
+  border-radius: 50%;
+  color: #6666cc;
+  display: inline-block;
+  font-size: 60px;
+  height: 90px;
+  line-height: 81px;
+  width: 90px;
+}
+.service-area.theme-2.about-us {
+  background: #38aecc none repeat scroll 0 0;
 }

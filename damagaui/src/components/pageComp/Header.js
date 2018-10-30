@@ -22,19 +22,10 @@ export default function Header() {
             <div className="main-menu about-us">
               <ul>
                 <li>
-                  <a href="landing.html">Home</a>
+                  <a href="landing.html">BETA</a>
                 </li>
                 <li>
                   <a href="cart-overview.html">Overview</a>
-                </li>
-                <li>
-                  <a href="main-shop.html">Feature</a>
-                </li>
-                <li>
-                  <a href="pricing-v1.html">Pricing</a>
-                </li>
-                <li>
-                  <a href="how-it-work.html">Works</a>
                 </li>
                 <li>
                   <a href="faq-v1.html">FAQ</a>

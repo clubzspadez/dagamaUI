@@ -4,6 +4,7 @@ import Contact from "./pageComp/Contact";
 import Hero from "./pageComp/Hero";
 import Action from "./pageComp/Action";
 import Services from "./pageComp/Services";
+import Footer from "./pageComp/Footer";
 import "../sass/base/_base.scss";
 
 import React from "react";
@@ -20,6 +21,7 @@ class Landing extends React.Component {
         <Action />
         <Services />
         <Contact />
+        <Footer />
       </div>
     );
   }

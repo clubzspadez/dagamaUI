@@ -22,15 +22,6 @@ const NavBar = () => {
           <a href="cart-overview.html">Overview</a>
         </li>
         <li>
-          <a href="main-shop.html">Feature</a>
-        </li>
-        <li>
-          <a href="pricing-v1.html">Pricing</a>
-        </li>
-        <li>
-          <a href="how-it-work.html">Works</a>
-        </li>
-        <li>
           <a href="faq-v1.html">FAQ</a>
         </li>
         <li>
