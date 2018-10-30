@@ -3,173 +3,25 @@
 ======================================================*/
 
 .hero-area--landing {
-  padding: 150px;
+  padding: 80px;
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
   color: #fff;
+  animation-name: moveInLeft;
+  animation-duration: 2s;
 }
 
-.hero-area {
-  background-position: center center;
-  background-size: cover;
-  overflow: hidden;
-  padding: 150px 0 180px;
-  position: relative;
-  z-index: 1;
-}
-.hero-area.checkout::after {
-  background: #918ef4 none repeat scroll 0 0;
-}
-.hero-area.checkout h1 {
-  margin-bottom: 20px;
-}
-.hero-area.checkout p {
-  display: inline-block;
-  font-size: 24px;
-  position: relative;
-}
-.hero-area.checkout p::after {
-  background: #fff none repeat scroll 0 0;
-  bottom: -25%;
-  content: "";
-  height: 2px;
-  left: 50%;
-  margin-left: -30%;
-  position: absolute;
-  width: 60%;
-}
-.hero-area.about-us {
-}
-.hero-area.contact-us {
-  padding-bottom: 60px;
-  padding-top: 170px;
-}
-.hero-area.contact-us h2 {
-  letter-spacing: 6px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.hero-area.about-us {
-  padding-bottom: 130px;
-  padding-top: 200px;
-}
-.hero-area.about-us h1,
-.hero-area.main-shop h1,
-.hero-area.checkout h1,
-.hero-area.contact-us h1,
-.hero-area.pricing-v1 h1,
-.hero-area.pricing-v2 h1,
-.hero-area.how-it-work h1 {
-  font-size: 48px;
-  margin-bottom: 28px;
-  line-height: 55px;
-}
-select:focus {
-  border: none;
-  outline: none;
-}
-.hero-area.contact-us:after {
-  background: #66ccff;
-}
-.hero-area.how-it-work {
-  padding-bottom: 80px;
-  padding-top: 200px;
-}
-.hero-area.how-it-work:after {
-  background: #009999;
-}
-.hero-area h1 {
-  color: #fff;
-}
-.hero-area.faq-v1 h1 {
-  font-size: 44px;
-  margin-bottom: 25px;
-  line-height: 52px;
-}
-.hero-area .boxed-btn {
-  margin-right: 20px;
-}
-.hero-area p {
-  margin-bottom: 65px;
-}
-.hero-social-icon {
-  height: 200px;
-  left: 0;
-  margin-top: -100px;
-  position: absolute;
-  top: 50%;
-}
-.hero-social-icon ul {
-  list-style: outside none none;
-  margin: 0;
-  padding: 0;
-}
-.hero-social-icon ul a {
-  background: black none repeat scroll 0 0;
-  border-radius: 50%;
-  color: #fff;
-  display: block;
-  font-size: 20px;
-  height: 40px;
-  line-height: 40px;
-  margin: 10px;
-  text-align: center;
-  width: 40px;
-  border: 1px solid white;
-  transition: 0.3s;
-}
-.hero-social-icon ul a:hover {
-  background: #1e96f2;
-}
-.hero-area.contact-us .helpline {
-  color: #fff;
-  display: inline-block;
-  font-size: 60px;
-}
-.hero-area.contact-us .helpline span {
-  display: block;
-  font-size: 16px;
-}
-.single-slide-table h1 {
-  color: #fff;
-  font-size: 48px;
-  line-height: 55px;
-}
-.hero-area.blog input[type="search"] {
-  border-radius: 50px;
-  padding-left: 28px;
-}
-.hero-area.blog .search-area {
-  color: #868a90;
-}
-.hero-area.pricing-v1:after {
-  background: #1e96f2 none repeat scroll 0 0;
-}
-.hero-area.checkout::after {
-  background: #918ef4 none repeat scroll 0 0;
-}
-.hero-area::after {
-  background: #6699ff none repeat scroll 0 0;
-  content: "";
-  height: 100%;
-  left: 0;
-  opacity: 0.95;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-}
-.hero-area.about-us::after {
-  background: #38aecc none repeat scroll 0 0;
-}
-.right-img {
-  position: absolute;
-  right: -60px;
-  top: 18%;
-  width: 55%;
-}
+// .hero-area {
+//   background-image: url("../../build/assets/img/bg-login.jpg");
+//   background-position: center center;
+//   background-size: cover;
+//   overflow: hidden;
+//   padding: 150px 0 180px;
+//   position: relative;
+//   z-index: 1;
+// }
 
 /* ===================================================
         Theme 2 (mobile-app-index)
@@ -178,12 +30,20 @@ select:focus {
         Hero Area CSS
 ==================================================== */
 
+// light purple #6837B3
+// medium purple #4D1C9B
+// dark purple #420F8E
+
 .hero-area.theme-2 {
-  background: #4d1c9b;
+  background-image: linear-gradient(to right bottom, #6937b3cb, #420f8ec9),
+    url("../../build/assets/img/bg-login.jpg");
+  background-size: cover;
+  background-position: center center;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 86%);
 }
 .hero-area.theme-2 {
   padding-bottom: 75px;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 .hero-area.theme-2::after {
   background: none;
@@ -196,6 +56,7 @@ select:focus {
   border-radius: 5px;
 }
 .hero-area.theme-2 .boxed-btn {
+  margin: 8px;
   background-color: black;
   border-color: white;
   box-shadow: 0 0 10px #326bb4;
@@ -213,5 +74,31 @@ select:focus {
 }
 
 .iphone--landing {
-  width: 70%;
+  width: 60%;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX();
+  }
+
+  80% {
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
