@@ -1,10 +1,8 @@
-import NavBar from "./pageComp/NavBar";
-import Header from "./pageComp/Header";
-import Contact from "./pageComp/Contact";
-import Hero from "./pageComp/Hero";
-import Action from "./pageComp/Action";
-import Services from "./pageComp/Services";
-import Footer from "./pageComp/Footer";
+import Header from "./landingComp/Header";
+import Contact from "./landingComp/Contact";
+import Hero from "./landingComp/Hero";
+import Action from "./landingComp/Action";
+import Services from "./landingComp/Services";
 import "../sass/base/_base.scss";
 
 import React from "react";
@@ -14,14 +12,12 @@ class Landing extends React.Component {
   }
   render() {
     return (
-      <div className="body">
-        <NavBar />
+      <div>
         <Header />
         <Hero />
         <Action />
         <Services />
         <Contact />
-        <Footer />
       </div>
     );
   }
