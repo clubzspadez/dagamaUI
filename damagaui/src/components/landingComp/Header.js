@@ -1,6 +1,6 @@
 import React from "react";
 import { css } from "glamor";
-import "../../sass/layout/_header.scss";
+import "../../sass/main.scss";
 
 export default function Header() {
   return (

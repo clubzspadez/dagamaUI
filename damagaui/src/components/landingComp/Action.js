@@ -1,5 +1,5 @@
 import React from "react";
-import "../../sass/layout/_action.scss";
+import "../../sass/main.scss";
 
 export default function Action() {
   return (

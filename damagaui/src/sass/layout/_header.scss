@@ -23,15 +23,15 @@ header h2 {
 .logo h1 {
   margin: 0;
   font-weight: 900;
-}
-.logo a {
-  font-size: 24px;
-  color: #fff;
-}
-.logo a span {
-  font-weight: 300;
-}
-.logo a:hover {
-  color: rgb(221, 216, 216);
-  text-decoration: none;
+  & a {
+    font-size: 24px;
+    color: #fff;
+  }
+  & a span {
+    font-weight: 300;
+  }
+  & a:hover {
+    color: rgb(221, 216, 216);
+    text-decoration: none;
+  }
 }
