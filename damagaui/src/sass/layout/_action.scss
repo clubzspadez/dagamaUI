@@ -1,3 +1,11 @@
 .cta-area {
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 86%);
 }
+
+.secondary-heading {
+  background-image: linear-gradient(to right, #8d52e7c9, #570fc3c9);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+}
