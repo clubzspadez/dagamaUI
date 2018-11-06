@@ -1,3 +1,6 @@
+// Base Rules
+@import "../base/_base";
+
 /* =====================================================
               Hero Area CSS
 ======================================================*/
@@ -11,6 +14,7 @@
   color: #fff;
   animation-name: moveInLeft;
   animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 // .hero-area {
@@ -35,20 +39,20 @@
 // dark purple #420F8E
 
 .hero-area.theme-2 {
-  background-image: linear-gradient(to right bottom, #6937b3cb, #420f8ec9),
+  background-image: linear-gradient(to right bottom, $color-primary, #420f8ec9),
     url("../../build/assets/img/bg-login.jpg");
   background-size: cover;
   background-position: center center;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 86%);
-}
-.hero-area.theme-2 {
   padding-bottom: 75px;
   padding-top: 100px;
+
+  &::after {
+    background: none;
+    opacity: 0.95;
+  }
 }
-.hero-area.theme-2::after {
-  background: none;
-  opacity: 0.95;
-}
+
 .hero-area.theme-2 .boxed-btn,
 .hero-area.theme-2 .borderd-btn,
 .smart-choice .boxed-btn,
@@ -66,8 +70,8 @@
   border-color: #fff;
 }
 .hero-area.theme-2 .borderd-btn:hover {
-  background-color: #e01872;
-  border-color: #e01872;
+  background-color: $pinkDark;
+  border-color: $pinkDark;
 }
 .hero-area.theme-2 p {
   margin-bottom: 45px;

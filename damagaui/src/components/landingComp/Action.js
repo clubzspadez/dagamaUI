@@ -1,39 +1,49 @@
 import React from "react";
-import "../../sass/layout/_action.scss";
+import "../../sass/main.scss";
+import sample from "../../build/assets/img/walking.mp4";
 
 export default function Action() {
   return (
     // <!-- ================ Call to Action Area Start ============== -->
-    <div className="cta-area padding-80">
-      <div className="container">
+    <div className="cta-area action-modified">
+      <div className="container action">
         <div className="row">
           <div className="col-lg-8 mx-md-auto text-center">
             <div>
-              <span>
-                <i className="coffee" />
-              </span>
+              <h2 className="secondary-heading">TRAVEL AND EXPLORE</h2>
             </div>
-            <div>
-              <span>
-                <i class="icofont-map-pins" />
-              </span>
-            </div>
-            <div>
-              <span>
-                <i class="icofont-map-pins" />
-              </span>
-            </div>
-            <div>
-              <span>
-                <i class="icofont-map-pins" />
-              </span>
-            </div>
-            <div>
-              <span>
-                <i class="icofont-map-pins" />
-              </span>
+            <div className="overview">
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+                sit amet, consectetur, adipisci velit, sed quia non numquam eius
+                modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                voluptatem. Ut enim ad minima veniam, quis nostrum
+                exercitationem ullam corporis suscipit laboriosam, nisi ut
+                aliquid ex ea commodi consequatur? Quis autem vel eum iure
+                reprehenderit qui in ea voluptate velit esse quam nihil
+                molestiae consequatur, vel illum qui dolorem eum fugiat quo
+                voluptas nulla pariatur?
+              </p>
+              <div>
+                <a className="btn-text" href="#">
+                  OverView &rarr;
+                </a>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="video-container">
+        <div className="video-wrapper">
+          <video className="video-source" autoPlay loop muted>
+            <source src={sample} type="video/mp4" />
+          </video>
         </div>
       </div>
     </div>
