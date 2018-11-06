@@ -1,11 +1,12 @@
 import React from "react";
 import "../../sass/main.scss";
+import sample from "../../build/assets/img/walking.mp4";
 
 export default function Action() {
   return (
     // <!-- ================ Call to Action Area Start ============== -->
-    <div className="cta-area padding-80">
-      <div className="container">
+    <div className="cta-area action-modified">
+      <div className="container action">
         <div className="row">
           <div className="col-lg-8 mx-md-auto text-center">
             <div>
@@ -35,14 +36,14 @@ export default function Action() {
                 </a>
               </div>
             </div>
-            <div className="row">
-              <div className="video-wrapper">
-                <video src="#" autoPlay="true" loop="true" />
-              </div>
-              <div />
-              <div />
-            </div>
           </div>
+        </div>
+      </div>
+      <div className="video-container">
+        <div className="video-wrapper">
+          <video className="video-source" autoPlay loop muted>
+            <source src={sample} type="video/mp4" />
+          </video>
         </div>
       </div>
     </div>

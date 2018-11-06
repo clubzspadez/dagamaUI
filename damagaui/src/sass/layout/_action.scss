@@ -1,5 +1,10 @@
-.cta-area {
+.cta-area .padding-80 .action-modified {
+  padding-top: 80px;
+  padding: 0;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 86%);
+}
+.container .action {
+  margin-bottom: 10px;
 }
 
 .secondary-heading {
@@ -8,4 +13,26 @@
   color: transparent;
   text-transform: uppercase;
   font-weight: 700;
+}
+.video-container {
+  max-height: 600px;
+  -webkit-clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
+  margin-bottom: -20px;
+}
+.video-wrapper {
+  background: rgba(0, 0, 0, 0.95)
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC");
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: -150px;
+  overflow: hidden;
+}
+
+.video-source {
+  opacity: 0.4;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
