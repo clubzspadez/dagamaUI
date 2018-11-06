@@ -36,6 +36,9 @@ export default function Action() {
               </div>
             </div>
             <div className="row">
+              <div className="video-wrapper">
+                <video src="#" autoPlay="true" loop="true" />
+              </div>
               <div />
               <div />
             </div>
