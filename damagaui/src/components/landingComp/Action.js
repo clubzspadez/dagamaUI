@@ -10,7 +10,7 @@ export default function Action() {
         <div className="row">
           <div className="col-lg-8 mx-md-auto text-center">
             <div>
-              <h2 className="secondary-heading">TRAVEL AND EXPLORE</h2>
+              <h1 className="secondary-heading">TRAVEL AND EXPLORE</h1>
             </div>
             <div className="overview">
               <p>
@@ -30,8 +30,8 @@ export default function Action() {
                 molestiae consequatur, vel illum qui dolorem eum fugiat quo
                 voluptas nulla pariatur?
               </p>
-              <div>
-                <a className="btn-text" href="#">
+              <div className="btn-text">
+                <a className="text--color" href="#">
                   OverView &rarr;
                 </a>
               </div>

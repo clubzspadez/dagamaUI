@@ -1,5 +1,6 @@
 .service-area.theme-2 {
-  background-image: linear-gradient(to right bottom, #6937b3, #420f8ede);
+  background-image: linear-gradient(to right, #7947c5ca, #420f8e91),
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC");
   -webkit-clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
   padding: 100px;
