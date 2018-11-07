@@ -30,8 +30,8 @@ export default function Action() {
                 molestiae consequatur, vel illum qui dolorem eum fugiat quo
                 voluptas nulla pariatur?
               </p>
-              <div>
-                <a className="btn-text" href="#">
+              <div className="btn-text">
+                <a className="text--color" href="#">
                   OverView &rarr;
                 </a>
               </div>

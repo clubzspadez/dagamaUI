@@ -14,6 +14,12 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+.btn-text {
+  color: $color-primary;
+  & .text--color {
+    color: $color-primary;
+  }
+}
 
 .video-container {
   max-height: 533px;
