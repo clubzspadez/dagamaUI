@@ -22,9 +22,6 @@ export default function Header() {
             <div className="main-menu about-us">
               <ul>
                 <li>
-                  <a href="landing.html">BETA</a>
-                </li>
-                <li>
                   <a href="cart-overview.html">Overview</a>
                 </li>
                 <li>
