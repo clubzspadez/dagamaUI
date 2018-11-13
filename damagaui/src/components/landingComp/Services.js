@@ -29,11 +29,9 @@ export default function Services() {
     <div className="service-area theme-2 padding-80">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3 col-md-6">
-            {featured.map(feature => (
-              <Service feature={feature} />
-            ))}
-          </div>
+          {featured.map(feature => (
+            <Service feature={feature} />
+          ))}
         </div>
 
         <div className="row">
