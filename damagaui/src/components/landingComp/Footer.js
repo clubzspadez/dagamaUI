@@ -65,16 +65,16 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div class="main-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-              <div class="copywright">
-                <div class="row">
-                  <div class="col-md-6">
+      <div className="main-footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-10 offset-lg-1">
+              <div className="copywright">
+                <div className="row">
+                  <div className="col-md-6">
                     <p>Copyright 2017 - All Right Reserved</p>
                   </div>
-                  <div class="col-md-6 text-right">
+                  <div className="col-md-6 text-right">
                     <ul>
                       <li>
                         <a href="#">Help</a>

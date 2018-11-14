@@ -1,22 +1,23 @@
 import React from "react";
-import "../../sass/layout/_services.scss";
+import "../../sass/main.scss";
+
 import Service from "./Service";
 
 const featured = [
   {
-    icon: "",
+    icon: "map-marked",
     name: "Navigate",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum."
   },
   {
-    icon: "",
+    icon: "walking",
     name: "Explore",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum."
   },
   {
-    icon: "",
+    icon: "users",
     name: "Share",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum."
@@ -29,8 +30,8 @@ export default function Services() {
     <div className="service-area theme-2 padding-80">
       <div className="container">
         <div className="row">
-          {featured.map(feature => (
-            <Service feature={feature} />
+          {featured.map((feature, index) => (
+            <Service feature={feature} key={index} />
           ))}
         </div>
 

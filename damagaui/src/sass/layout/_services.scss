@@ -1,5 +1,5 @@
 .service-area.theme-2 {
-  background-image: linear-gradient(to right, #7947c5ca, #420f8e91),
+  background-image: linear-gradient(to right, #915ce2, #1c073b),
     url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC");
   -webkit-clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
@@ -11,7 +11,8 @@
 ============================================================*/
 
 .service-area.theme-2 .container {
-  margin-top: 40px;
+  padding-top: 40px;
+  margin-top: 120px;
 }
 .service-area.theme-2,
 .service-area.theme-2 h3,
@@ -62,6 +63,81 @@
   background: #38aecc none repeat scroll 0 0;
 }
 
-.row {
-  flex: 33%;
+.icon-pack {
+  margin-top: 10px;
+  padding: 2px;
+}
+
+/* ===================================================
+              Services CSS
+====================================================*/
+
+.service-area.about-us {
+  background: #fff;
+}
+.service-area {
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.service-area::after {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.service-icon {
+  font-size: 30px;
+  transition: 0.4s;
+}
+.service-icon i {
+  color: #7d90dc;
+}
+.service-icon i.icofont-diamond {
+  color: #ea368d;
+}
+.service-icon i.icofont-ui-theme {
+  color: #fd7452;
+}
+.service-icon i.icofont-rocket-alt-2 {
+  color: #7a5664;
+}
+.service-icon i.clip {
+  color: $color-primary;
+}
+.service-icon i.macbook {
+  color: #e58983;
+}
+.single-services h4 {
+  transition: 0.4s;
+  margin-bottom: 0px;
+}
+.single-services {
+  margin: 25px 0 40px;
+}
+.single-services:hover .service-icon,
+.single-services:hover.single-services h4 {
+  color: $color-primary;
+}
+.single-services:hover .service-icon,
+.single-services:hover.single-services h4 {
+  border-color: $color-primary;
+  color: $color-primary;
+}
+.store-btn:hover {
+  background: $color-primary none repeat scroll 0 0;
+  border-color: $color-primary;
+  color: #fff;
+}
+.service-area.about-us .single-services {
+  text-align: center;
+}
+.service-area.about-us .service-icon img {
+  max-width: 35px;
 }
