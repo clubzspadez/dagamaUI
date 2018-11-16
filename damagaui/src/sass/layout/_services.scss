@@ -1,5 +1,5 @@
 .service-area.theme-2 {
-  background-image: linear-gradient(to right, #915ce2, #1c073b),
+  background-image: linear-gradient(to right bottom, #a069f3, #1c073b),
     url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC");
   -webkit-clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
@@ -128,7 +128,7 @@
 .single-services:hover .service-icon,
 .single-services:hover.single-services h4 {
   border-color: $color-primary;
-  color: $color-primary;
+  color: $pinkDark;
 }
 .store-btn:hover {
   background: $color-primary none repeat scroll 0 0;
