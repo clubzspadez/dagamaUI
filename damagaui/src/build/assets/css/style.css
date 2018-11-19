@@ -2685,27 +2685,6 @@ button {
   border-color: #1e96f2;
 }
 
-/* ====================================================
-        Footer CSS
-=======================================================*/
-
-footer.theme-2 {
-  background: linear-gradient(to left, #2d3238 0, black 100%);
-  color: #fff;
-}
-footer.theme-2 ul a {
-  color: #fff;
-}
-footer.theme-2 .boxed-btn {
-  background: #1e96f2;
-  border-color: #1e96f2;
-}
-footer.theme-2 .boxed-btn:hover {
-  background: transparent;
-}
-footer.theme-2 .main-footer {
-  background: black;
-}
 /* ============================================
           Theme 3 (skype-index)
 ==============================================*/

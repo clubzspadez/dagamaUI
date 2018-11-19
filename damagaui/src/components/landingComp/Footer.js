@@ -1,4 +1,5 @@
 import React from "react";
+import "../../sass/main.scss";
 
 export default function Footer() {
   return (
@@ -16,7 +17,7 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6">
+          <div className="col-lg-4 col-sm-6 text-right">
             <div className="widget">
               <h4 className="widget-title">Policy</h4>
               <ul>
@@ -26,16 +27,10 @@ export default function Footer() {
                 <li>
                   <a href="#">Licenses</a>
                 </li>
-                <li>
-                  <a href="#">Refunds</a>
-                </li>
-                <li>
-                  <a href="#">Security</a>
-                </li>
               </ul>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6">
+          <div className="col-lg-4 col-sm-6 text-right">
             <div className="widget">
               <h4 className="widget-title">Help</h4>
               <ul>
@@ -52,15 +47,6 @@ export default function Footer() {
                   <a href="#">Affiliate</a>
                 </li>
               </ul>
-            </div>
-          </div>
-          <div className="col-lg-4 col-sm-6">
-            <div className="widget">
-              <h4 className="widget-title">Subscribe Newsletter</h4>
-              <form action="#">
-                <input type="text" placeholder="Your email address" />
-                <button className="boxed-btn">Subscribe</button>
-              </form>
             </div>
           </div>
         </div>

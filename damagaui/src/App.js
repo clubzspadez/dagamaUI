@@ -9,14 +9,14 @@ import {
   faWalking,
   faUsers
 } from "@fortawesome/free-solid-svg-icons";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 library.add(faMapMarked, faWalking, faUsers);
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div className="app">
+        <div>
           <NavBar />
           <Route exact path="/" component={Landing} />
           <Footer />
