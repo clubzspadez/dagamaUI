@@ -1,5 +1,5 @@
 .service-area.theme-2 {
-  background-image: linear-gradient(to right, #915ce2, #1c073b),
+  background-image: linear-gradient(to right bottom, #a069f3, #1c073b),
     url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC");
   -webkit-clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
@@ -23,18 +23,15 @@
   background-image: linear-gradient(to right bottom, #6f1fe7, #420f8e);
 }
 .theme-2 .single-services {
-  background: #fff none repeat scroll 0 0;
-  border: 1px solid #eaeaea;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  color: #313131;
+  color: #fff;
   padding: 30px 20px 60px;
   text-align: center;
   transition: 0.3s;
 }
 .theme-2 .single-services:hover {
-  box-shadow: 0 0 10px #ddd;
 }
 .service-area.theme-2 .row {
   margin-left: 0;
@@ -120,6 +117,10 @@
 }
 .single-services {
   margin: 25px 0 40px;
+  transition: transform 0.2s;
+}
+.single-services:hover {
+  transform: scale3d(1.1, 1.1, 1);
 }
 .single-services:hover .service-icon,
 .single-services:hover.single-services h4 {
@@ -128,7 +129,10 @@
 .single-services:hover .service-icon,
 .single-services:hover.single-services h4 {
   border-color: $color-primary;
-  color: $color-primary;
+  color: $pinkDark;
+}
+
+.single-services:hover .service-icon .icon-pack {
 }
 .store-btn:hover {
   background: $color-primary none repeat scroll 0 0;
@@ -140,4 +144,9 @@
 }
 .service-area.about-us .service-icon img {
   max-width: 35px;
+}
+
+.download {
+  border-top: 2px dotted #fff;
+  padding-top: 30px;
 }

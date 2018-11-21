@@ -35,8 +35,10 @@ export default function Services() {
           ))}
         </div>
 
-        <div className="row">
-          <div className="col-lg-12 text-center">
+        <div className="row download">
+          <div className="col-lg-12 text-right">
+            <div className="col-lg-6 text-center" />
+            <h1>Lets navigate the world together!</h1>
             <a href="#" className="store-btn">
               <i className="icofont icofont-brand-apple" /> App Store
             </a>
