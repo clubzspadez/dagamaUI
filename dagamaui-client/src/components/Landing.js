@@ -1,4 +1,3 @@
-import Header from "./landingComp/Header";
 import Contact from "./landingComp/Contact";
 import Hero from "./landingComp/Hero";
 import Action from "./landingComp/Action";
@@ -14,7 +13,6 @@ class Landing extends React.Component {
   render() {
     return (
       <div>
-        <Header />
         <Hero />
         <Action />
         <Services />
