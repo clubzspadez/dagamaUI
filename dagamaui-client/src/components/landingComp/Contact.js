@@ -7,7 +7,6 @@ export default function Contact() {
       <div className="container">
         <div className="row">
           <div className="col-lg-8 offset-lg-2 text-center">
-            <h3>Lets get in Contact</h3>
             <div className="contact-form">
               <form action="index.html">
                 <input type="text" placeholder="Full Name" />

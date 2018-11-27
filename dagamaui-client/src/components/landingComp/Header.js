@@ -5,7 +5,7 @@ import "../../sass/main.scss";
 export default function Header() {
   return (
     // <!-- ============== Header Area ============= -->
-    <header>
+    <header className="hasShadow">
       <div className="container">
         <div className="row">
           <div className="col-sm-3 col-6">
