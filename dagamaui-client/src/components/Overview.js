@@ -1,5 +1,14 @@
 import React from "react";
+import Work from "./Overview/Work";
+import "../sass/base/_base.scss";
+import "../sass/layout/_contact.scss";
 
-export default function Beta() {
-  return <div />;
+function Overview() {
+  return (
+    <div>
+      <Work />
+    </div>
+  );
 }
+
+export default Overview;
