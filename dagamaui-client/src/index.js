@@ -9,7 +9,7 @@ import "./build/assets/css/bootstrap.min.css";
 // import "./build/assets/css/icofont.css";
 // import "./build/assets/css/lightbox.min.css";
 // import "./build/assets/css/magnific-popup.css";
-// import "./build/assets/css/owl.carousel.css";
+import "./build/assets/css/owl.carousel.css";
 import "./build/assets/css/responsive.css";
 // import "./build/assets/css/slicknav.min.css";
 

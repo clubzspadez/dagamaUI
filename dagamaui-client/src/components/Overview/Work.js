@@ -1,15 +1,20 @@
 import React from "react";
 
+const divStyle = {
+  visibility: "visible",
+  animationDuration: "2.5s",
+  animationName: "zoomIn"
+};
 export default function Work() {
   return (
     <div>
-      <div class="section-padding about-us">
-        <div class="container">
-          <div class="row">
+      <div className="section-padding about-us">
+        <div className="container">
+          <div className="row">
             <div
-              class="col-lg-5 wow zoomIn"
+              className="col-lg-5 wow zoomIn"
               data-wow-duration="2.5s"
-              style="visibility: visible; animation-duration: 2.5s; animation-name: zoomIn;"
+              style={divStyle}
             >
               <h2>How We Work</h2>
               <p>
@@ -21,13 +26,13 @@ export default function Work() {
                 of letters, as opposed to using making it look like readable It
                 is a long established fact English.
               </p>
-              <a href="#" class="boxed-btn">
+              <a href="#" className="boxed-btn">
                 See Project
               </a>
             </div>
           </div>
         </div>
-        <img src="assets/img/about1.jpg" alt="" class="img-absulate" />
+        <img src="assets/img/about1.jpg" alt="" className="img-absulate" />
       </div>
     </div>
   );

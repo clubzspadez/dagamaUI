@@ -4,6 +4,7 @@ import Overview from "./components/Overview.js";
 import Header from "./components/landingComp/Header";
 import Footer from "./components/landingComp/Footer";
 import { library } from "@fortawesome/fontawesome-svg-core";
+
 import {
   faMapMarked,
   faWalking,

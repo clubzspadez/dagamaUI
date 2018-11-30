@@ -6,3 +6,14 @@
 @import "/layout/_header.scss";
 @import "/layout/_contact.scss";
 @import "/layout/_services.scss";
+@import "./utils/owl/_animate";
+@import "./utils/owl/_autoheight";
+@import "./utils/owl/_core";
+@import "./utils/owl/_lazyload";
+@import "./utils/owl/animate";
+@import "./utils/owl/_theme.default";
+@import "./utils/owl/_theme.green";
+@import "./utils/owl/_theme";
+@import "./utils/owl/owl.carousel.scss";
+@import "./utils/owl/owl.theme.default.scss";
+@import "./utils/owl/owl.theme.green.scss";
