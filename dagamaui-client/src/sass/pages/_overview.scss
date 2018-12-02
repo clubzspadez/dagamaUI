@@ -1,0 +1,37 @@
+/*===============================================
+              Download Section CSS
+================================================*/
+
+.section-padding.about-us {
+  overflow: hidden;
+  position: relative;
+}
+.section-padding.about-us {
+  background: $color-primary none repeat scroll 0 0;
+  padding: 130px 0;
+  position: relative;
+}
+.section-padding.about-us .img-absulate {
+  border: 5px solid $pinkLight;
+  position: absolute;
+  right: -1%;
+  top: 14%;
+  width: 46%;
+}
+.section-padding.about-us h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.section-padding.about-us {
+  color: #fff;
+}
+.section-padding.about-us .boxed-btn {
+  background: $color-primary none repeat scroll 0 0;
+  border-color: $pinkDark;
+  box-shadow: 0 10px 10px $pinkLight;
+  margin-top: 24px;
+}
+.section-padding.about-us .boxed-btn:hover {
+  background: $pinkDark;
+  color: #fff;
+}

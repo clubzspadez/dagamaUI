@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import Landing from "./components/Landing";
-import NavBar from "./components/landingComp/NavBar";
+import Overview from "./components/Overview.js";
+import Header from "./components/landingComp/Header";
 import Footer from "./components/landingComp/Footer";
-import logo from "./logo.svg";
 import { library } from "@fortawesome/fontawesome-svg-core";
+
 import {
   faMapMarked,
   faWalking,
@@ -17,8 +18,11 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <NavBar />
-          <Route exact path="/" component={Landing} />
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/overview" component={Overview} />
+          </Switch>
           <Footer />
         </div>
       </Router>

@@ -1,6 +1,6 @@
 import React from "react";
-import { css } from "glamor";
 import "../../sass/main.scss";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -10,25 +10,33 @@ export default function Header() {
         <div className="row">
           <div className="col-sm-3 col-6">
             <div className="logo">
-              <h1>
-                <a href="landing-mobile-app.html">
-                  Dagama
-                  <span>App</span>
-                </a>
-              </h1>
+              <NavLink to="/" activeClassName="active">
+                <h1>
+                  <a href="landing-mobile-app.html">
+                    Dagama
+                    <span>App</span>
+                  </a>
+                </h1>
+              </NavLink>
             </div>
           </div>
           <div className="col-sm-9 col-6 text-right">
             <div className="main-menu about-us">
               <ul>
                 <li>
-                  <a href="cart-overview.html">Overview</a>
+                  <NavLink to="/overview" activeClassName="active">
+                    Overview
+                  </NavLink>
                 </li>
                 <li>
-                  <a href="faq-v1.html">FAQ</a>
+                  <NavLink to="/faq" activeClassName="active">
+                    FAQ
+                  </NavLink>
                 </li>
                 <li>
-                  <a href="contact-us.html">Contact</a>
+                  <NavLink to="/contact" activeClassName="active">
+                    Contact{" "}
+                  </NavLink>
                 </li>
               </ul>
             </div>
