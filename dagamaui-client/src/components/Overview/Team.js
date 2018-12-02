@@ -22,7 +22,7 @@ export default function Team() {
               style={sectionTitle}
             >
               <div className="section-title">
-                <h2>Meet With Our Team</h2>
+                <h2>Meet Our Team</h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.

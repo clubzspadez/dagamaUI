@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../../build/assets/img/about1.jpg";
 
 const divStyle = {
   visibility: "visible",
@@ -32,7 +33,7 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <img src="assets/img/about1.jpg" alt="" className="img-absulate" />
+        <img src={image} alt="" className="img-absulate" />
       </div>
     </div>
   );
