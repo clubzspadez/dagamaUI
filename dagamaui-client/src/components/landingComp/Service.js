@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Service(props) {
   return (
-    <div className="col-lg-4 col-md-6">
+    <div className="col-lg-4 col-md-4">
       <div className="single-services secondary-heading">
         <div className="service-icon">
           <FontAwesomeIcon className="icon-pack" icon={props.feature.icon} />
