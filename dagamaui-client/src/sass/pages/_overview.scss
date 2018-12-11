@@ -39,4 +39,9 @@
 .card {
   background-color: orangered;
   height: 30rem;
+  transition: all 0.8s;
+
+  &:hover {
+    transform: rotateY(180deg);
+  }
 }

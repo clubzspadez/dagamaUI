@@ -1,5 +1,5 @@
 import React from "react";
-import "../../sass/pages/_overview.scss";
+import "../../sass/main.scss";
 const sectionTitle = {
   visibility: "visible",
   animationDuration: "2s",
