@@ -12,7 +12,8 @@
   position: relative;
 }
 .section-padding.about-us .img-absulate {
-  border: 5px solid $pinkLight;
+  border: 2px solid $pinkLight;
+  border-radius: 5px;
   position: absolute;
   right: -1%;
   top: 14%;
@@ -37,11 +38,35 @@
 }
 
 .card {
-  background-color: orangered;
+  perspective: 1500px;
+  position: relative;
   height: 30rem;
-  transition: all 0.8s;
+  -moz-perspective: 1500px;
 
-  &:hover {
+  &__side {
+    background-color: orangered;
+    height: 30rem;
+    transition: all 0.8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+
+    &--front {
+      background-color: #fff;
+    }
+    &--back {
+      background-color: #000;
+      transform: rotateY(180deg);
+    }
+  }
+
+  &:hover &__side--front {
     transform: rotateY(180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
   }
 }

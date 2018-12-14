@@ -32,19 +32,34 @@ export default function Team() {
           </div>
           <div className="row">
             <div className="col-lg-4 ">
-              <div className="card">Team Member</div>
+              <div className="card">
+                <div className="card__side card__side--front">Team Member</div>
+                <div className="card__side card__side--back">Back Info</div>
+              </div>
             </div>
             <div className="col-lg-4 ">
-              <div className="card">Team Member</div>
+              <div className="card">
+                <div className="card__side card__side--front">Team Member</div>
+                <div className="card__side card__side--back">Back Info</div>
+              </div>
             </div>
             <div className="col-lg-4 ">
-              <div className="card">Team Member</div>
+              <div className="card">
+                <div className="card__side card__side--front">Team Member</div>
+                <div className="card__side card__side--back">Back Info</div>
+              </div>
             </div>
             <div className="col-lg-6 ">
-              <div className="card">Team Member</div>
+              <div className="card">
+                <div className="card__side card__side--front">Team Member</div>
+                <div className="card__side card__side--back">Back Info</div>
+              </div>
             </div>
             <div className="col-lg-6 ">
-              <div className="card">Team Member</div>
+              <div className="card">
+                <div className="card__side card__side--front">Team Member</div>
+                <div className="card__side card__side--back">Back Info</div>
+              </div>
             </div>
           </div>
         </div>
